@@ -5,7 +5,7 @@ x = random.randrange(1,5)
 y = random.randrange(1,5)
 #Part A
 window = turtle.Screen() # 2.  Create a screen
-window.bgcolor('purple')
+window.bgcolor('white')
 
 michelangelo = turtle.Turtle() # 3.  Create two turtles
 leonardo = turtle.Turtle()
@@ -24,7 +24,7 @@ michelangelo.forward(random.randint(0,10))
 leonardo.forward(random.randint(0,10))
 michelangelo.goto(-10,5)
 leonardo.goto(-10,-5)
-for run in range(5):       
+for run in range(10):       
   michelangelo.forward(random.randint(0,5))
   leonardo.forward(random.randint(0,5))
 
