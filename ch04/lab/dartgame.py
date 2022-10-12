@@ -6,11 +6,11 @@ pygame.init()
 
 Witdth = 400
 Height = 400
-Blue = [255, 0, 0]
-Red = [0, 0, 255]
+Blue = [225, 0, 0]
+Red = [0, 0, 225]
 Black = [0, 0, 0]
-Green = [173, 216, 230]
-Pink = [255, 140, 105]
+Green = [165, 205, 220]
+Pink = [225, 120, 95]
 
 
 screen = pygame.display.set_mode([Height, Witdth])
